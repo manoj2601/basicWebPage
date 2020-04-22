@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My webpage</title>
+		<!--link rel="stylesheet" href ="style.css"-->
+		<style>
+			div1 {
+
+				background-color: teal;
+				font-family: Arial, sans-serif; 
+				/*Arial is preferable sans if Arial does not support*/
+				width: 13%;
+				margin: 10px;
+				padding: 10px;
+				border: 3px solid blue;
+			}
+			table {
+				width :50%;
+				
+			}
+			th {
+				background-color : grey;
+			}
+			table, th, td {
+				border: 2px solid black;
+				border-collapse: collapse;
+				padding: 5px;
+			}
+/*			th {
+				border: 1px solid blue;
+			}*/
+
+			#top {
+				font-size:36px;
+				font-family: sans-serif;
+			}
+			#middle {
+				font-size: 24px;
+			}
+			#bottom {
+				font-size: 12px;
+			}
+			.name
+			{
+				font-weight: bold;
+
+			}
+			</style>
+</head>
+<body>
+
+		<img src="profile pic.jpeg"; width="20%"; height="20%">
+		<form>
+			<input type="text" placeholder="Full Name" name="name">
+			<button>Submit</button> 
+		</form>
+		<h1>House Commetiee Member</h1>
+		<table>
+			<tr>
+				<th> First Name</th>
+				<th> Last Name</th>
+				<th> Date of Birth</th>
+			</tr>
+			<tr>
+				<td> Manoj</td>
+				<td> Kumar</td>
+				<td> 26 Jan 2001</td>
+			</tr>
+			<tr>
+				<td> Mewa</td>
+				<td> Ram</td>
+				<td> 19 July 1998</td>
+			</tr>
+			<tr>
+				<td> Durga</td>
+				<td> Ram</td>
+				<td> 5 January 2001</td>
+			</tr>
+		</table>
+		<br>
+		An unordered List :
+		<ul>
+			<li> First <b>Item</b></li>
+			<li> Second Item</li>
+			<li> Third Item</li>
+		</ul>
+		An ordered List :
+		<ol>
+			<li> First Item</li>
+			<li> Second Item</li>
+			<li> Third Item</li>
+		</ol>
+		<h1> Welcome to CSS</h1>
+
+			<div1>
+	Hello manoj <br>
+	</div1>
+	<br>
+	<br>
+	<div id="top"> <!--Id must be unique, class need not to be.-->
+		This is the <span class="name">top</span> of my web page.
+	</div>
+	<div id="middle">
+		This is the <span class="name">middle</span> of my web page.
+	</div>
+	<div id="bottom">
+		This is the <span class="name">bottom</span> of my web page.
+	</div>
+	</body>
+</html>
